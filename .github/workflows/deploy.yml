@@ -22,4 +22,4 @@ jobs:
 
       - name: Run Ansible Playbook for Nginx
         run: |
-          ansible-playbook -i inventory.ini install_nginx.yml
+          ansible-playbook -i inventory install_nginx.yml
